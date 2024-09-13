@@ -4,11 +4,16 @@
     margin: 0;
     padding: 0;
     background-color: #24252A;
+    
 }
-li, a, button{
+:root{
+--kolor1:rgba(187, 19, 19,1);
+
+}
+header li,header  a,header button{
     font-family: "Monserat", sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 20px;
     color: #edf0f1;
     text-decoration: none;
 }
@@ -20,6 +25,7 @@ padding: 30px 10%;
 }
 .logo{
     cursor: pointer;
+    
 }
 .navbar{
     list-style: none;
@@ -32,17 +38,52 @@ padding: 30px 10%;
     transition: all 0.3s ease 0s;
 }
 .navbar li a:hover{
-    color: #0088a9;
+    color: var(--kolor1);
 }
 button{
     padding: 9px 25px;
-    background-color: rgba(0,136,169,1);
+    background-color: rgba(187, 19, 19,1);
     border: none;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
 button:hover{
-    background-color: rgba(0,136,169,0.7);
+    background-color: rgba(187, 19, 19,0.5);
 }
+.druga{
+font-family: 'Lucida Sans';
+}
+.promo{
+    text-align: center;
+    padding-top:80px;
+    padding-bottom: 40px;
+}
+.main_img{
+width:100%;
+}
+.info{
+    display: flex;
+    justify-content:space-around ;
     
+}
+.info ul {
+    display: inline-block;
+    padding: 0px 20px;
+    max-width: 33%;
+    list-style: none;
+}
+.info li{
+    text-align: center;
+    color: #edf0f1;
+    font-size: 18px;
+    
+}
+.info a{
+    text-decoration: none;
+    color: var(--kolor1);
+    font-weight: bold;
+}
+.info a:hover{
+    color: rgba(187, 19, 19,0.5);
+}
