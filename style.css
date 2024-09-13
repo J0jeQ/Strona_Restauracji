@@ -58,6 +58,8 @@ font-family: 'Lucida Sans';
     text-align: center;
     padding-top:80px;
     padding-bottom: 40px;
+    animation: blink 2s linear infinite;
+    color: rgb(218, 82, 13);
 }
 .main_img{
 width:100%;
@@ -86,4 +88,8 @@ width:100%;
 }
 .info a:hover{
     color: rgba(187, 19, 19,0.5);
+}
+@keyframes blink{
+    0%, 100% {opacity: 1;}
+    50% {opacity:0;}
 }
