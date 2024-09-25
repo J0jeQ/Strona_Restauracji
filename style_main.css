@@ -40,7 +40,7 @@ padding: 30px 10%;
 .navbar li a:hover{
     color: var(--kolor1);
 }
-button{
+#contact{
     padding: 9px 25px;
     background-color: rgba(187, 19, 19,1);
     border: none;
@@ -48,7 +48,7 @@ button{
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
-button:hover{
+#contact:hover{
     background-color: rgba(187, 19, 19,0.5);
 }
 .druga{
@@ -63,10 +63,12 @@ font-family: 'Lucida Sans';
 }
 .main_img{
 width:100%;
+display: flex;
+justify-content:space-between ;
 }
 .info{
     display: flex;
-    justify-content:space-around ;
+    justify-content:center;
     
 }
 .info ul {

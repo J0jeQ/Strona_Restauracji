@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+:root{
+--kolor1:rgba(187, 19, 19,1);
+
+}
+header li,header  a,header button{
+    font-family: "Monserat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+header{
+display:flex;
+justify-content: space-between;
+align-items:center;
+padding: 30px 10%;
+}
+.logo{
+    cursor: pointer;
+    
+}
+.navbar{
+    list-style: none;
+}
+.navbar li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navbar li a{
+    transition: all 0.3s ease 0s;
+}
+.navbar li a:hover{
+    color: var(--kolor1);
+}
+#contact{
+    padding: 9px 25px;
+    background-color: rgba(187, 19, 19,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+#contact:hover{
+    background-color: rgba(187, 19, 19,0.5);
+}
+#about_us{
+    font-family: "Sofadi One";
+    font-weight: 400;
+    font-size: 56px;
+
+}
+main{
+    display:flex;
+    justify-content:flex-start;
+margin:150px 200px 0px 400px;
+
+}
+#about_us{
+    display:flex;
+    align-items: start;
+    
+    
+}
