@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_contact.css">
+    <link rel="icon">
+    <title>Kawałki i gryzki</title>
+</head>
+<body>
+    <header>
+    <h1 class="logo">Kawałki i gryzki</h1>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">O nas</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Rezerwacje</a></li>
+            <li><a href="#">Galeria</a></li>
+        </ul>
+    </nav>
+    <a class="ct" href="contact.html"><button id="contact">Kontakt</button></a>
+    </header>
+    <main>
+        <h2 id="contact_us">Skontaktuj się z nami</h2>
+    <article>
+
+    <section class="inqury">
+        <h3 id="destiny">Zapytanie</h3>
+    <form>
+    <label for="fname">Imię:</label><br>
+    <input placeholder="Adam" type="text" id="fname" name="fname"><br>
+    <label for="lname">Nazwisko:</label><br>
+    <input placeholder="Przykładowy" type="text" id="lname" name="lname"><br>
+    <label for="email">Email:</label><br>
+    <input placeholder="twojemail@gmail.com" type="email" id="email" name="email"><br>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Mężczyzna</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Kobieta</label>
+    <input type="radio" id="nobody" name="gender" value="nobody">
+    <label for="nobody">Nie chce podawać</label><br>
+    <input type="checkbox" id="statute" name="statute" value="confirm">
+    <label for="statute">Akceptuję <a id="regulamin" href="#">regulamin</a></label><br>
+    <input type="checkbox" id="newsletter" name="newsletter" value="newsletter">
+    <label for="newsletter">Akceptuje newsletter</label><br>
+    <label for="message">Wiadomość:</label><br>
+    <textarea placeholder="Twoja wiadomość do nas" rows="5" cols="25" name="message" form="message"></textarea><br>
+    <button id="submit" type="submit">Wyślij</button>
+    </form>
+    </section>
+    <section class="find_us">
+        <h3 id="destiny">Znajdz nas</h3>
+        <p>Nasz lokal w Poznaniu znajdziecie na ulicy <mark>Pólwiejskiej 15.</mark></p>
+        <p>Druga nasza lokalizacja to Wrocław, ulica <mark>Fabryczna 20.</mark></p>
+        <p>Zapraszamy!</p>
+    </section>
+</article>
+    </main>
+    </body>
+    </html>
